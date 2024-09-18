@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPrestamos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información sobre los préstamos"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo Personal: Ingreso de 20,000 a 40,000"
+        android:layout_below="@id/textViewPrestamos"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNegocio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo de Negocio: Ingreso de 40,000 a 60,000"
+        android:layout_below="@id/textViewPersonal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewVivienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Préstamo de Vivienda: Ingreso de 15,000 a 35,000"
+        android:layout_below="@id/textViewNegocio"/>
+</RelativeLayout>

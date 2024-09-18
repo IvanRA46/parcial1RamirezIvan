@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">parcial1</string>
+    <string name="lblapp">App de prestamos</string>
+    <string name="lblcurp">Curp:</string>
+    <string name="txtcurp">CURP</string>
+    <string name="lblnombre">Nombre:</string>
+    <string name="txtnombre">Nombre</string>
+    <string name="lblapellidos">Apellidos:</string>
+    <string name="txtapellidos">Apellidos</string>
+    <string name="lbldomicilio">Domicilio:</string>
+    <string name="txtdomicilio">Domicilio</string>
+    <string name="lblingreso">Cantidad de ingreso:</string>
+    <string name="txtingreso">Ingreso</string>
+    <string name="btnsubmit">Validar</string>
+    <string-array name="tipo_prestamo_array">
+        <item>Personal</item>
+        <item>Negocio</item>
+        <item>Vivienda</item>
+    </string-array>
+</resources>
